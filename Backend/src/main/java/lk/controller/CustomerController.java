@@ -9,7 +9,7 @@ public class CustomerController {
 
     @GetMapping
     public String getCustomer(){
-        return "getCustomer";
+        return "Get Customer";
     }
 
     @PostMapping

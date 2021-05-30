@@ -7,7 +7,7 @@
     <groupId>lk</groupId>
     <artifactId>Backend</artifactId>
     <version>1.0.0</version>
-    <packaging>war</packaging>
+    <packaging>pom</packaging>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -15,6 +15,7 @@
     </properties>
 
     <dependencies>
+
         <!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
         <dependency>
             <groupId>org.springframework</groupId>
@@ -36,5 +37,7 @@
             <artifactId>jackson-databind</artifactId>
             <version>2.12.3</version>
         </dependency>
+
     </dependencies>
+
 </project>
